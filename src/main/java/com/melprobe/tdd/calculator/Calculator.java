@@ -10,4 +10,8 @@ public class Calculator {
         return i - j;
     }
 
+    public Object multiply(int i, int j) {
+        return i * j;
+    }
+
 }

@@ -19,6 +19,12 @@ public class CalculatorTest {
         assertEquals(-1, calculator.subtract(0,1));
         assertEquals(3410, calculator.subtract(4521,1111));
     }
-    // testMultiply
+    
+    @Test
+    public void testMultiply() {
+        Calculator calculator = new Calculator();
+        assertEquals(0, calculator.multiply(0,1));
+        assertEquals(5022831, calculator.multiply(4521,1111));
+    }
     // TestDivide
 }
