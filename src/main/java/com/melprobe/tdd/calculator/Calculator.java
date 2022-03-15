@@ -14,4 +14,8 @@ public class Calculator {
         return i * j;
     }
 
+    public Object divide(int i, int j) {
+        return i / j;
+    }
+
 }
